@@ -1,0 +1,203 @@
+$primary-color: rgb(155, 70, 70);
+$secondary-color: white;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: azure !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+// .navbar-toggler{
+//   background-color: white !important;
+// }
+
+// .navbar-toggler-icon{
+//   color: black !important;
+// }
+
+
+
+.navbar-brand {
+  color: rgb(167, 38, 16) !important;
+  font-size: xx-large !important;
+}
+
+h1 {
+  font-size: 20px !important;
+  color: rgb(0, 0, 0);
+}
+
+.img-fluid {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+.flex-container {
+  display: flex !important;
+}
+
+.btn {
+  background-color: $primary-color !important;
+  color: rgb(243, 243, 238) !important;
+  width: 138px;
+  height: 40px;
+}
+
+.item-comp {
+  margin: 100px !important;
+}
+
+.modal-image {
+  height: 300px;
+  width: 300px;
+}
+
+.fa-plus{
+  color: green;
+  margin: 5px;
+}
+
+.fa-minus{
+  color: red;
+  margin: 5px;
+}
+
+.fa-trash{
+  color:red;
+}
+
+input{
+  margin-top: 10px  !important;
+  box-shadow: none !important;
+}
+.adminfunctions{
+  display: flex;
+  justify-content: space-around;
+  background: rgb(0, 132, 255);
+  padding: 5px;
+  list-style: none;
+  li .link{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+li .link:hover{
+  color:rgb(188, 3, 3);
+}
+
+li{
+  margin-right: 50px !important;
+}
+
+a{
+  margin-right: 30px !important;
+}
+
+
+.click-to-register {
+  color: rgb(255, 255, 255) !important;
+  border: none !important;
+  text-decoration: none;
+  background-color: rgb(52, 91, 197) !important;  
+  padding: 8px;
+  margin-top: 50px;
+  position: absolute;
+  border-radius: 7px;
+  left: 820px;
+  width: 100px;
+}
+
+
+
+.login-button {
+  position: absolute;
+  width: 170px;
+  margin-top: 20px;
+  margin-left:70px;
+}
+
+.register-button{
+  margin-left:-300px;
+  margin-top: 60px;
+}
+.list-inline-item{
+  
+margin-top :8px;
+}
+
+
+.place_order{
+  position: absolute !important;
+  margin-left: 0px;
+  position: absolute !important;
+  margin-top:100px
+}
+
+.payment-1{
+  margin-left:70px
+}
+
+.payment-2{
+  margin-left:120px
+}
+
+.nav-name {
+  color: $primary-color;
+  font-weight: bold;
+}
+
+.navbar-nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.order_item {
+  background-color: rgba(109, 188, 241, 0.904);
+}
+
+.order_placed {
+  margin-top: 80px;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.wallpaper{
+  background: url("https://plumislandcoffee.com/images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.dummyDiv{
+  height: 90px;
+}
+.d-flex{
+  width: 100%;
+}
+
